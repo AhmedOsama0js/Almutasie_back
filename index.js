@@ -27,7 +27,7 @@ app.use(
         callback(new ApiError("Not allowed by CORS"));
       }
     },
-    methods: ["GET", "PATCH"],
+    methods: ["GET", "PATCH", "POST"],
     credentials: true,
   })
 );
