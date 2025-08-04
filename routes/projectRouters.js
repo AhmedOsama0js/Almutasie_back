@@ -6,18 +6,25 @@ const {
   getAllProjects,
   getApartmentByName,
   toggleApartmentStatus,
+  getProjectData,
+  getApartmentsStats,
 } = require("../controllers/projectController");
 
-// const {
-//   updateUserValidator,
-//   //   addUserValidator,
-// } = require("../utils/validators/userValidator");
-
-// router.use(AuthUser, allowedTO("manager"));
+const {
+  apartmentStatusValidation,
+} = require("../utils/validators/ChangeStatuseProject");
 
 // Project Routes
 router.get("/", getAllProjects);
-router.get("/:name", getApartmentByName);
-router.post("/:name", AuthUser, allowedTO("manager"), toggleApartmentStatus);
+router.get("/stats", getApartmentsStats);
+router.get("/data/:block/:build?/:floor?/:apartment?", getProjectData);
+router.get("/name/:name", getApartmentByName);
+router.post(
+  "/:name",
+  AuthUser,
+  allowedTO("manager"),
+  apartmentStatusValidation,
+  toggleApartmentStatus
+);
 
 module.exports = router;

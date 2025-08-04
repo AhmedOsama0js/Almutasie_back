@@ -19,6 +19,66 @@ exports.getAllProjects = asyncHandler(async (req, res, next) => {
   });
 });
 
+exports.getProjectData = asyncHandler(async (req, res, next) => {
+  const { block, build, floor, apartment } = req.params;
+
+  const project = await mongoose.connection.db
+    .collection("Project")
+    .findOne({}); // مش بندور بالـ block هنا
+
+  if (!project) {
+    return next(new ApiError(`لا يوجد أي مشروع حالياً`, 404));
+  }
+
+  // دور على البلوك
+  const blockData = project.blocks.find((b) => b.name === block);
+  if (!blockData) {
+    return next(new ApiError(`لا يوجد بلوك بإسم ${block}`, 404));
+  }
+
+  let result = blockData;
+
+  // لو فيه مبنى
+  if (build) {
+    const buildData = blockData.buildings.find((b) => b.name === build);
+    if (!buildData) {
+      return next(
+        new ApiError(`لا يوجد مبنى بإسم ${build} داخل البلوك ${block}`, 404)
+      );
+    }
+    result = buildData;
+  }
+
+  // لو فيه دور
+  if (floor) {
+    const floorData = result.floors.find(
+      (f) => f.floorNumber.toLowerCase() === floor.toLowerCase()
+    );
+    if (!floorData) {
+      return next(
+        new ApiError(`لا يوجد دور بإسم ${floor} داخل المبنى ${build}`, 404)
+      );
+    }
+    result = floorData;
+  }
+
+  // لو فيه شقة
+  if (apartment) {
+    const apartmentData = result.apartments.find((a) => a.name === apartment);
+    if (!apartmentData) {
+      return next(
+        new ApiError(`لا يوجد وحدة بإسم ${apartment} داخل الدور ${floor}`, 404)
+      );
+    }
+    result = apartmentData;
+  }
+
+  res.status(200).json({
+    status: "success",
+    data: result,
+  });
+});
+
 exports.getApartmentByName = asyncHandler(async (req, res, next) => {
   const { name } = req.params;
 
@@ -27,7 +87,7 @@ exports.getApartmentByName = asyncHandler(async (req, res, next) => {
   }
 
   const project = await mongoose.connection.db.collection("Project").findOne({
-    "blocks.buildings.floors.apartments.id": name,
+    "blocks.buildings.floors.apartments.name": name,
   });
 
   if (!project) {
@@ -40,7 +100,7 @@ exports.getApartmentByName = asyncHandler(async (req, res, next) => {
     block.buildings.forEach((building) => {
       building.floors.forEach((floor) => {
         floor.apartments.forEach((apartment) => {
-          if (apartment.id === name) {
+          if (apartment.name === name) {
             foundApartment = {
               block: block.name,
               building: building.name,
@@ -65,30 +125,35 @@ exports.getApartmentByName = asyncHandler(async (req, res, next) => {
 
 exports.toggleApartmentStatus = asyncHandler(async (req, res, next) => {
   const { name } = req.params;
+  const { status } = req.body;
+
+  const allowedStatuses = ["available", "sold", "not_offered", "reserved"];
 
   if (!name) {
     return next(new ApiError("يجب إرسال اسم الشقة في الـ query", 400));
   }
 
+  if (!status || !allowedStatuses.includes(status)) {
+    return next(new ApiError("الحالة المرسلة غير صحيحة", 400));
+  }
+
   // نجيب المشروع اللي فيه الشقة
   const project = await mongoose.connection.db.collection("Project").findOne({
-    "blocks.buildings.floors.apartments.id": name,
+    "blocks.buildings.floors.apartments.name": name,
   });
 
   if (!project) {
     return next(new ApiError("الشقة غير موجودة", 404));
   }
 
-  // نعدل حالة الشقة
   let newStatus = null;
   project.blocks.forEach((block) => {
     block.buildings.forEach((building) => {
       building.floors.forEach((floor) => {
         floor.apartments.forEach((apartment) => {
-          if (apartment.id === name) {
-            apartment.status =
-              apartment.status === "available" ? "sold" : "available";
-            newStatus = apartment.status;
+          if (apartment.name === name) {
+            apartment.status = status; // نخليها زي اللي جاي من الـ body
+            newStatus = status;
           }
         });
       });
@@ -105,5 +170,42 @@ exports.toggleApartmentStatus = asyncHandler(async (req, res, next) => {
     message: `تم تعديل حالة الشقة (${name}) إلى: ${newStatus}`,
     apartmentId: name,
     newStatus,
+  });
+});
+
+exports.getApartmentsStats = asyncHandler(async (req, res, next) => {
+  const stats = await mongoose.connection.db
+    .collection("Project")
+    .aggregate([
+      { $unwind: "$blocks" },
+      { $unwind: "$blocks.buildings" },
+      { $unwind: "$blocks.buildings.floors" },
+      { $unwind: "$blocks.buildings.floors.apartments" },
+      {
+        $group: {
+          _id: "$blocks.buildings.floors.apartments.status",
+          count: { $sum: 1 },
+        },
+      },
+    ])
+    .toArray();
+
+  const formattedStats = {
+    available: 0,
+    sold: 0,
+    not_offered: 0,
+    reserved: 0,
+  };
+
+  stats.forEach((s) => {
+    if (formattedStats[s._id] !== undefined) {
+      formattedStats[s._id] = s.count;
+    }
+  });
+
+  res.status(200).json({
+    status: "success",
+    stats: formattedStats,
+    total: Object.values(formattedStats).reduce((a, b) => a + b, 0),
   });
 });
