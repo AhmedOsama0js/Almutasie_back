@@ -30,7 +30,7 @@ const suspiciousBlocker = (req, res, next) => {
 
 // const limiter = rateLimit({
 //   windowMs: 10 * 60 * 1000,
-//   max: 200,
+//   max: 2,
 //   message: "⛔ Too many requests, try again later.",
 //   handler: (req, res, next) => {
 //     res.status(429).send({
