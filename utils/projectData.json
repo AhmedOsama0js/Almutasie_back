@@ -5,7 +5,7 @@
       "name": "355",
       "buildings": [
         {
-          "name": "A1",
+          "name": "F1",
           "floors": [
             {
               "floorNumber": "Ground",
@@ -78,6 +78,23 @@
                 },
                 {
                   "name": "355-A1-Second-1-6",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "355-A1-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "355-A1-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "355-A1-Roof-3-1",
                   "status": "available"
                 }
               ]
@@ -161,6 +178,23 @@
                   "status": "available"
                 }
               ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "355-B1-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "355-B1-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "355-B1-Roof-3-1",
+                  "status": "available"
+                }
+              ]
             }
           ]
         },
@@ -238,6 +272,23 @@
                 },
                 {
                   "name": "355-B2-Second-1-6",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "355-B2-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "355-B2-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "355-B2-Roof-3-1",
                   "status": "available"
                 }
               ]
@@ -321,6 +372,23 @@
                   "status": "available"
                 }
               ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "355-B3-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "355-B3-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "355-B3-Roof-3-1",
+                  "status": "available"
+                }
+              ]
             }
           ]
         },
@@ -401,6 +469,23 @@
                   "status": "available"
                 }
               ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "355-B4-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "355-B4-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "355-B4-Roof-3-1",
+                  "status": "available"
+                }
+              ]
             }
           ]
         },
@@ -478,6 +563,23 @@
                 },
                 {
                   "name": "355-A2-Second-1-6",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "355-A2-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "355-A2-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "355-A2-Roof-3-1",
                   "status": "available"
                 }
               ]
@@ -566,6 +668,23 @@
                   "status": "available"
                 }
               ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "356-C1-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "356-C1-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "356-C1-Roof-3-1",
+                  "status": "available"
+                }
+              ]
             }
           ]
         },
@@ -643,6 +762,23 @@
                 },
                 {
                   "name": "356-D1-Second-1-6",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "356-D1-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "356-D1-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "356-D1-Roof-3-1",
                   "status": "available"
                 }
               ]
@@ -726,6 +862,23 @@
                   "status": "available"
                 }
               ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "356-D2-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "356-D2-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "356-D2-Roof-3-1",
+                  "status": "available"
+                }
+              ]
             }
           ]
         },
@@ -803,6 +956,23 @@
                 },
                 {
                   "name": "356-D3-Second-1-6",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "356-D3-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "356-D3-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "356-D3-Roof-3-1",
                   "status": "available"
                 }
               ]
@@ -886,6 +1056,23 @@
                   "status": "available"
                 }
               ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "356-D4-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "356-D4-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "356-D4-Roof-3-1",
+                  "status": "available"
+                }
+              ]
             }
           ]
         },
@@ -966,6 +1153,23 @@
                   "status": "available"
                 }
               ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "356-E1-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "356-E1-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "356-E1-Roof-3-1",
+                  "status": "available"
+                }
+              ]
             }
           ]
         },
@@ -1043,6 +1247,23 @@
                 },
                 {
                   "name": "356-C2-Second-1-6",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "356-C2-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "356-C2-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "356-C2-Roof-3-1",
                   "status": "available"
                 }
               ]
@@ -1131,6 +1352,23 @@
                   "status": "available"
                 }
               ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "557-C3-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "557-C3-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "557-C3-Roof-3-1",
+                  "status": "available"
+                }
+              ]
             }
           ]
         },
@@ -1208,6 +1446,23 @@
                 },
                 {
                   "name": "557-D5-Second-1-6",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "557-D5-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "557-D5-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "557-D5-Roof-3-1",
                   "status": "available"
                 }
               ]
@@ -1291,6 +1546,23 @@
                   "status": "available"
                 }
               ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "557-D6-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "557-D6-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "557-D6-Roof-3-1",
+                  "status": "available"
+                }
+              ]
             }
           ]
         },
@@ -1368,6 +1640,23 @@
                 },
                 {
                   "name": "557-D7-Second-1-6",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "557-D7-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "557-D7-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "557-D7-Roof-3-1",
                   "status": "available"
                 }
               ]
@@ -1451,6 +1740,23 @@
                   "status": "available"
                 }
               ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "557-D8-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "557-D8-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "557-D8-Roof-3-1",
+                  "status": "available"
+                }
+              ]
             }
           ]
         },
@@ -1528,6 +1834,120 @@
                 },
                 {
                   "name": "557-E2-Second-1-6",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "557-E2-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "557-E2-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "557-E2-Roof-3-1",
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "C4",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "557-C4-Ground-G-1",
+                  "status": "available"
+                },
+                {
+                  "name": "557-C4-Ground-G-2",
+                  "status": "available"
+                },
+                {
+                  "name": "557-C4-Ground-G-3",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "557-C4-First-1-1",
+                  "status": "available"
+                },
+                {
+                  "name": "557-C4-First-1-2",
+                  "status": "available"
+                },
+                {
+                  "name": "557-C4-First-1-3",
+                  "status": "available"
+                },
+                {
+                  "name": "557-C4-First-1-4",
+                  "status": "available"
+                },
+                {
+                  "name": "557-C4-First-1-5",
+                  "status": "available"
+                },
+                {
+                  "name": "557-C4-First-1-6",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "557-C4-Second-1-1",
+                  "status": "available"
+                },
+                {
+                  "name": "557-C4-Second-1-2",
+                  "status": "available"
+                },
+                {
+                  "name": "557-C4-Second-1-3",
+                  "status": "available"
+                },
+                {
+                  "name": "557-C4-Second-1-4",
+                  "status": "available"
+                },
+                {
+                  "name": "557-C4-Second-1-5",
+                  "status": "available"
+                },
+                {
+                  "name": "557-C4-Second-1-6",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "557-C4-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "557-C4-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "557-C4-Roof-3-1",
                   "status": "available"
                 }
               ]
@@ -1616,6 +2036,23 @@
                   "status": "available"
                 }
               ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "358-F1-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "358-F1-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "358-F1-Roof-3-1",
+                  "status": "available"
+                }
+              ]
             }
           ]
         },
@@ -1693,6 +2130,23 @@
                 },
                 {
                   "name": "358-D9-Second-1-6",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "358-D9-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "358-D9-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "358-D9-Roof-3-1",
                   "status": "available"
                 }
               ]
@@ -1776,6 +2230,23 @@
                   "status": "available"
                 }
               ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "358-D10-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "358-D10-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "358-D10-Roof-3-1",
+                  "status": "available"
+                }
+              ]
             }
           ]
         },
@@ -1853,6 +2324,23 @@
                 },
                 {
                   "name": "358-D11-Second-1-6",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "358-D11-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "358-D11-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "358-D11-Roof-3-1",
                   "status": "available"
                 }
               ]
@@ -1936,6 +2424,23 @@
                   "status": "available"
                 }
               ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "358-D12-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "358-D12-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "358-D12-Roof-3-1",
+                  "status": "available"
+                }
+              ]
             }
           ]
         },
@@ -2013,6 +2518,23 @@
                 },
                 {
                   "name": "358-F2-Second-1-6",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "358-F2-Roof-3-3",
+                  "status": "available"
+                },
+                {
+                  "name": "358-F2-Roof-3-2",
+                  "status": "available"
+                },
+                {
+                  "name": "358-F2-Roof-3-1",
                   "status": "available"
                 }
               ]
