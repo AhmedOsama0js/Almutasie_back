@@ -12,7 +12,7 @@ const path = require("path");
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:3000",
-  "https://dashboard.asasmakeen-mtc.com/",
+  "https://dashboard.asasmakeen-mtc.com",
 ];
 
 const app = express();
