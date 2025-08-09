@@ -7,10 +7,18 @@ const errorHandler = require("./middlewares/errorHandler");
 const ApiError = require("./utils/ApiError");
 const cors = require("cors");
 
-const allowedOrigins = ["http://localhost:5173", "http://localhost:3000"];
+const path = require("path");
+
+const allowedOrigins = [
+  "http://localhost:5173",
+  "http://localhost:3000",
+  "https://dashboard.asasmakeen-mtc.com/",
+];
 
 const app = express();
 app.use(express.json());
+
+app.use(express.static(path.join(__dirname, "public")));
 
 require("./middlewares/security")(app);
 
@@ -41,6 +49,17 @@ if (process.env.NODE_MODE === "dev") {
 app.use("/api/v1/user", usersRoute);
 app.use("/api/v1/auth", authRoute);
 app.use("/api/v1/project", projectRoute);
+
+app.get("*", (req, res, next) => {
+  if (!req.originalUrl.startsWith("/api")) {
+    return res.sendFile(path.join(__dirname, "public", "index.html"));
+  } else {
+    next(
+      new ApiError(`Sorry, this URL ${req.originalUrl} does not exist`, 400)
+    );
+  }
+  next();
+});
 
 app.use((req, res, next) => {
   next(new ApiError(`Cannot find ${req.originalUrl} on this server ⚠️`, 404));
