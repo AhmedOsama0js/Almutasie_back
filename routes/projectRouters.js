@@ -3,11 +3,10 @@ const router = express.Router();
 
 const { AuthUser, allowedTO } = require("../controllers/authController");
 const {
-  getAllProjects,
   getApartmentByName,
   toggleApartmentStatus,
-  getProjectData,
-  getApartmentsStats,
+  getProjectDataWithStats,
+  getApartmentsByStatus,
 } = require("../controllers/projectController");
 
 const {
@@ -15,9 +14,14 @@ const {
 } = require("../utils/validators/ChangeStatuseProject");
 
 // Project Routes
-router.get("/", getAllProjects);
-router.get("/stats", getApartmentsStats);
-router.get("/data/:block/:build?/:floor?/:apartment?", getProjectData);
+router.get(
+  "/data/:block?/:build?/:floor?/:apartment?",
+  getProjectDataWithStats
+);
+router.post(
+  "/stats/:block?/:build?/:floor?/:apartment?",
+  getApartmentsByStatus
+);
 router.get("/name/:name", getApartmentByName);
 router.post(
   "/:name",

@@ -2,82 +2,82 @@ const mongoose = require("mongoose");
 const asyncHandler = require("express-async-handler");
 const ApiError = require("../utils/ApiError");
 
-exports.getAllProjects = asyncHandler(async (req, res, next) => {
-  const projects = await mongoose.connection.db
-    .collection("Project")
-    .find({})
-    .toArray();
+// exports.getAllProjects = asyncHandler(async (req, res, next) => {
+//   const projects = await mongoose.connection.db
+//     .collection("Project")
+//     .find({})
+//     .toArray();
 
-  if (!projects || projects.length === 0) {
-    return next(new ApiError("لا يوجد أي مشاريع حالياً", 404));
-  }
+//   if (!projects || projects.length === 0) {
+//     return next(new ApiError("لا يوجد أي مشاريع حالياً", 404));
+//   }
 
-  res.status(200).json({
-    status: "success",
-    results: projects.length,
-    data: projects,
-  });
-});
+//   res.status(200).json({
+//     status: "success",
+//     results: projects.length,
+//     data: projects,
+//   });
+// });
 
-exports.getProjectData = asyncHandler(async (req, res, next) => {
-  const { block, build, floor, apartment } = req.params;
+// exports.getProjectData = asyncHandler(async (req, res, next) => {
+//   const { block, build, floor, apartment } = req.params;
 
-  const project = await mongoose.connection.db
-    .collection("Project")
-    .findOne({}); // مش بندور بالـ block هنا
+//   const project = await mongoose.connection.db
+//     .collection("Project")
+//     .findOne({}); // مش بندور بالـ block هنا
 
-  if (!project) {
-    return next(new ApiError(`لا يوجد أي مشروع حالياً`, 404));
-  }
+//   if (!project) {
+//     return next(new ApiError(`لا يوجد أي مشروع حالياً`, 404));
+//   }
 
-  // دور على البلوك
-  const blockData = project.blocks.find((b) => b.name === block);
-  if (!blockData) {
-    return next(new ApiError(`لا يوجد بلوك بإسم ${block}`, 404));
-  }
+//   // دور على البلوك
+//   const blockData = project.blocks.find((b) => b.name === block);
+//   if (!blockData) {
+//     return next(new ApiError(`لا يوجد بلوك بإسم ${block}`, 404));
+//   }
 
-  let result = blockData;
+//   let result = blockData;
 
-  // لو فيه مبنى
-  if (build) {
-    const buildData = blockData.buildings.find((b) => b.name === build);
-    if (!buildData) {
-      return next(
-        new ApiError(`لا يوجد مبنى بإسم ${build} داخل البلوك ${block}`, 404)
-      );
-    }
-    result = buildData;
-  }
+//   // لو فيه مبنى
+//   if (build) {
+//     const buildData = blockData.buildings.find((b) => b.name === build);
+//     if (!buildData) {
+//       return next(
+//         new ApiError(`لا يوجد مبنى بإسم ${build} داخل البلوك ${block}`, 404)
+//       );
+//     }
+//     result = buildData;
+//   }
 
-  // لو فيه دور
-  if (floor) {
-    const floorData = result.floors.find(
-      (f) => f.floorNumber.toLowerCase() === floor.toLowerCase()
-    );
-    if (!floorData) {
-      return next(
-        new ApiError(`لا يوجد دور بإسم ${floor} داخل المبنى ${build}`, 404)
-      );
-    }
-    result = floorData;
-  }
+//   // لو فيه دور
+//   if (floor) {
+//     const floorData = result.floors.find(
+//       (f) => f.floorNumber.toLowerCase() === floor.toLowerCase()
+//     );
+//     if (!floorData) {
+//       return next(
+//         new ApiError(`لا يوجد دور بإسم ${floor} داخل المبنى ${build}`, 404)
+//       );
+//     }
+//     result = floorData;
+//   }
 
-  // لو فيه شقة
-  if (apartment) {
-    const apartmentData = result.apartments.find((a) => a.name === apartment);
-    if (!apartmentData) {
-      return next(
-        new ApiError(`لا يوجد وحدة بإسم ${apartment} داخل الدور ${floor}`, 404)
-      );
-    }
-    result = apartmentData;
-  }
+//   // لو فيه شقة
+//   if (apartment) {
+//     const apartmentData = result.apartments.find((a) => a.name === apartment);
+//     if (!apartmentData) {
+//       return next(
+//         new ApiError(`لا يوجد وحدة بإسم ${apartment} داخل الدور ${floor}`, 404)
+//       );
+//     }
+//     result = apartmentData;
+//   }
 
-  res.status(200).json({
-    status: "success",
-    data: result,
-  });
-});
+//   res.status(200).json({
+//     status: "success",
+//     data: result,
+//   });
+// });
 
 exports.getApartmentByName = asyncHandler(async (req, res, next) => {
   const { name } = req.params;
@@ -207,5 +207,210 @@ exports.getApartmentsStats = asyncHandler(async (req, res, next) => {
     status: "success",
     stats: formattedStats,
     total: Object.values(formattedStats).reduce((a, b) => a + b, 0),
+  });
+});
+
+exports.getProjectDataWithStats = asyncHandler(async (req, res, next) => {
+  const { block, build, floor, apartment } = req.params;
+
+  const project = await mongoose.connection.db
+    .collection("Project")
+    .findOne({});
+
+  if (!project) {
+    return next(new ApiError(`لا يوجد أي مشروع حالياً`, 404));
+  }
+
+  let result = project; // افتراضياً كل المشروع
+
+  // لو فيه بلوك محدد
+  if (block) {
+    const blockData = project.blocks.find((b) => b.name === block);
+    if (!blockData) {
+      return next(new ApiError(`لا يوجد بلوك بإسم ${block}`, 404));
+    }
+    result = blockData;
+
+    if (build) {
+      const buildData = blockData.buildings.find((b) => b.name === build);
+      if (!buildData) {
+        return next(
+          new ApiError(`لا يوجد مبنى بإسم ${build} داخل البلوك ${block}`, 404)
+        );
+      }
+      result = buildData;
+    }
+
+    if (floor) {
+      const floorData = result.floors.find(
+        (f) => f.floorNumber.toLowerCase() === floor.toLowerCase()
+      );
+      if (!floorData) {
+        return next(
+          new ApiError(`لا يوجد دور بإسم ${floor} داخل المبنى ${build}`, 404)
+        );
+      }
+      result = floorData;
+    }
+
+    if (apartment) {
+      const apartmentData = result.apartments.find((a) => a.name === apartment);
+      if (!apartmentData) {
+        return next(
+          new ApiError(
+            `لا يوجد وحدة بإسم ${apartment} داخل الدور ${floor}`,
+            404
+          )
+        );
+      }
+      result = apartmentData;
+    }
+  }
+
+  // حساب الإحصائيات بناءً على المستوى الحالي
+  let apartmentsList = [];
+
+  if (result.apartments) {
+    apartmentsList = result.apartments;
+  } else if (result.floors) {
+    apartmentsList = result.floors.flatMap((f) => f.apartments);
+  } else if (result.buildings) {
+    apartmentsList = result.buildings.flatMap((b) =>
+      b.floors.flatMap((f) => f.apartments)
+    );
+  } else if (result.blocks) {
+    apartmentsList = result.blocks.flatMap((bl) =>
+      bl.buildings.flatMap((b) => b.floors.flatMap((f) => f.apartments))
+    );
+  }
+
+  const formattedStats = {
+    available: 0,
+    sold: 0,
+    not_offered: 0,
+    reserved: 0,
+  };
+
+  apartmentsList.forEach((a) => {
+    if (formattedStats[a.status] !== undefined) {
+      formattedStats[a.status]++;
+    }
+  });
+
+  res.status(200).json({
+    status: "success",
+    data: result,
+    stats: formattedStats,
+    total: apartmentsList.length,
+  });
+});
+
+exports.getApartmentsByStatus = asyncHandler(async (req, res, next) => {
+  const { block, build, floor, apartment } = req.params;
+  const { status } = req.body;
+
+  if (!status) {
+    return next(new ApiError("برجاء إرسال الحالة المطلوبة في الـ body", 400));
+  }
+
+  const project = await mongoose.connection.db
+    .collection("Project")
+    .findOne({});
+
+  if (!project) {
+    return next(new ApiError(`لا يوجد أي مشروع حالياً`, 404));
+  }
+
+  let result = project;
+
+  // التصفية التدريجية للمستوى المطلوب
+  if (block) {
+    const blockData = project.blocks.find((b) => b.name === block);
+    if (!blockData) {
+      return next(new ApiError(`لا يوجد بلوك بإسم ${block}`, 404));
+    }
+    result = blockData;
+
+    if (build) {
+      const buildData = blockData.buildings.find((b) => b.name === build);
+      if (!buildData) {
+        return next(
+          new ApiError(`لا يوجد مبنى بإسم ${build} داخل البلوك ${block}`, 404)
+        );
+      }
+      result = buildData;
+    }
+
+    if (floor) {
+      const floorData = result.floors.find(
+        (f) => f.floorNumber.toLowerCase() === floor.toLowerCase()
+      );
+      if (!floorData) {
+        return next(
+          new ApiError(`لا يوجد دور بإسم ${floor} داخل المبنى ${build}`, 404)
+        );
+      }
+      result = floorData;
+    }
+
+    if (apartment) {
+      const apartmentData = result.apartments.find((a) => a.name === apartment);
+      if (!apartmentData) {
+        return next(
+          new ApiError(
+            `لا يوجد وحدة بإسم ${apartment} داخل الدور ${floor}`,
+            404
+          )
+        );
+      }
+      result = apartmentData;
+    }
+  }
+
+  // دالة لإعادة بناء الهيكل مع فلترة الشقق حسب الحالة
+  function filterHierarchyByStatus(level) {
+    // إذا كان المستوى شقة
+    if (level.status !== undefined) {
+      return level.status === status ? level : null;
+    }
+
+    // إذا كان فيه شقق مباشرة
+    if (level.apartments) {
+      const filteredApts = level.apartments.filter((a) => a.status === status);
+      return { ...level, apartments: filteredApts };
+    }
+
+    // إذا كان فيه أدوار
+    if (level.floors) {
+      const filteredFloors = level.floors
+        .map(filterHierarchyByStatus)
+        .filter((f) => f && f.apartments.length > 0);
+      return { ...level, floors: filteredFloors };
+    }
+
+    // إذا كان فيه مباني
+    if (level.buildings) {
+      const filteredBuildings = level.buildings
+        .map(filterHierarchyByStatus)
+        .filter((b) => b && b.floors.length > 0);
+      return { ...level, buildings: filteredBuildings };
+    }
+
+    // إذا كان فيه بلوكات
+    if (level.blocks) {
+      const filteredBlocks = level.blocks
+        .map(filterHierarchyByStatus)
+        .filter((bl) => bl && bl.buildings.length > 0);
+      return { ...level, blocks: filteredBlocks };
+    }
+
+    return level;
+  }
+
+  const filteredResult = filterHierarchyByStatus(result);
+
+  res.status(200).json({
+    status: "success",
+    data: filteredResult,
   });
 });
