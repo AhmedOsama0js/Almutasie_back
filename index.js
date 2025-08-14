@@ -13,6 +13,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:3000",
   "https://dashboard.asasmakeen-mtc.com",
+  "https://asasmakeen-mtc.com",
 ];
 
 const app = express();
