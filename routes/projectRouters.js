@@ -7,6 +7,7 @@ const {
   toggleApartmentStatus,
   getProjectDataWithStats,
   getApartmentsByStatus,
+  ChangeApartmentPrice,
 } = require("../controllers/projectController");
 
 const {
@@ -24,7 +25,13 @@ router.post(
 );
 router.get("/name/:name", getApartmentByName);
 router.post(
-  "/:name",
+  "/price/:name",
+  AuthUser,
+  allowedTO("manager"),
+  ChangeApartmentPrice
+);
+router.post(
+  "/status/:name",
   AuthUser,
   allowedTO("manager"),
   apartmentStatusValidation,

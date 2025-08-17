@@ -1,0 +1,4460 @@
+{
+  "projectName": "Almutasie",
+  "blocks": [
+    {
+      "name": "355",
+      "buildings": [
+        {
+          "name": "A1",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "355-A1-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.0175,
+                  "price": 458339.55401332304,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A1-G-2",
+                  "type": "استوديو",
+                  "area": 75.14,
+                  "price": 250179.27380219146,
+                  "bathrooms": 2,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A1-G-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 140.7725,
+                  "price": 565329.276975069,
+                  "bathrooms": 4,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "355-A1-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.01,
+                  "price": 430952.25445525115,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A1-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 578363.6584414374,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A1-1-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 140.78,
+                  "price": 565401.3180467463,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A1-1-4",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 137.66,
+                  "price": 555018.6538888698,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A1-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.6,
+                  "price": 636584.8693108412,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A1-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 118.85,
+                  "price": 436204.19024474925,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "355-A1-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.01,
+                  "price": 430952.25445525115,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A1-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 578363.6584414374,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A1-2-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 140.78,
+                  "price": 565401.3180467463,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A1-2-4",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 136.7655,
+                  "price": 551412.2018628375,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A1-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.6,
+                  "price": 636584.8693108412,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A1-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 118.0525,
+                  "price": 433277.1995697792,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "355-A1-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 111.536,
+                  "price": 394558.3617080578,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A1-3-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 138.192,
+                  "price": 530243.7740080976,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A1-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 106.98,
+                  "price": 381684.0723364179,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "A2",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "355-A2-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.0175,
+                  "price": 458339.55401332304,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A2-G-2",
+                  "type": "استوديو",
+                  "area": 75.14,
+                  "price": 250179.27380219146,
+                  "bathrooms": 2,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A2-G-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 140.7725,
+                  "price": 565329.276975069,
+                  "bathrooms": 4,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "355-A2-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.01,
+                  "price": 430952.25445525115,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A2-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 578363.6584414374,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A2-1-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 140.78,
+                  "price": 565401.3180467463,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A2-1-4",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 137.66,
+                  "price": 555018.6538888698,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A2-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.6,
+                  "price": 636584.8693108412,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A2-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 118.85,
+                  "price": 436204.19024474925,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "355-A2-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.01,
+                  "price": 430952.25445525115,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A2-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 578363.6584414374,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A2-2-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 140.78,
+                  "price": 565401.3180467463,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A2-2-4",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 136.7655,
+                  "price": 551412.2018628375,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A2-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.6,
+                  "price": 636584.8693108412,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A2-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 118.0525,
+                  "price": 433277.1995697792,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "355-A2-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 111.536,
+                  "price": 394558.3617080578,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A2-3-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 138.192,
+                  "price": 530243.7740080976,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-A2-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 106.98,
+                  "price": 381684.0723364179,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "B1",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "355-B1-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.016,
+                  "price": 458333.96530170867,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B1-G-2",
+                  "type": "غرفتين وصالة",
+                  "area": 126.255,
+                  "price": 470401.85658099124,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "355-B1-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.01,
+                  "price": 430952.25445525115,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B1-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 578363.6584414374,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B1-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 126.25,
+                  "price": 442843.7275422767,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B1-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 122.81,
+                  "price": 450738.21290666936,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B1-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.36,
+                  "price": 635623.9554525431,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B1-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 118.85,
+                  "price": 436204.19024474925,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "355-B1-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.01,
+                  "price": 430952.25445525115,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B1-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 578363.6584414374,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B1-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 126.25,
+                  "price": 442843.7275422767,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B1-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 122.0125,
+                  "price": 447811.2222316993,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B1-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.6,
+                  "price": 636584.8693108412,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B1-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 118.0525,
+                  "price": 433277.1995697792,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "355-B1-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 112.115,
+                  "price": 396550.5191454892,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B1-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 117.319,
+                  "price": 385511.3162258829,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B1-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 111.104,
+                  "price": 393118.07258290553,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "B2",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "355-B2-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.016,
+                  "price": 458333.96530170867,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B2-G-2",
+                  "type": "غرفتين وصالة",
+                  "area": 126.255,
+                  "price": 470401.85658099124,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "355-B2-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.01,
+                  "price": 430952.25445525115,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B2-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 578363.6584414374,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B2-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 126.25,
+                  "price": 442843.7275422767,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B2-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 122.81,
+                  "price": 450738.21290666936,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B2-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.36,
+                  "price": 635623.9554525431,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B2-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 118.85,
+                  "price": 436204.19024474925,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "355-B2-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.01,
+                  "price": 430952.25445525115,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B2-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 578363.6584414374,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B2-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 126.25,
+                  "price": 442843.7275422767,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B2-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 122.0125,
+                  "price": 447811.2222316993,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B2-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.6,
+                  "price": 636584.8693108412,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B2-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 118.0525,
+                  "price": 433277.1995697792,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "355-B2-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 112.115,
+                  "price": 396550.5191454892,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B2-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 117.319,
+                  "price": 385511.3162258829,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B2-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 111.104,
+                  "price": 393118.07258290553,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "B3",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "355-B3-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.016,
+                  "price": 458333.96530170867,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B3-G-2",
+                  "type": "غرفتين وصالة",
+                  "area": 126.255,
+                  "price": 470401.85658099124,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "355-B3-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.01,
+                  "price": 430952.25445525115,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B3-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 578363.6584414374,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B3-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 126.25,
+                  "price": 442843.7275422767,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B3-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 122.81,
+                  "price": 450738.21290666936,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B3-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.36,
+                  "price": 635623.9554525431,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B3-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 118.85,
+                  "price": 436204.19024474925,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "355-B3-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.01,
+                  "price": 430952.25445525115,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B3-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 578363.6584414374,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B3-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 126.25,
+                  "price": 442843.7275422767,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B3-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 122.0125,
+                  "price": 447811.2222316993,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B3-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.6,
+                  "price": 636584.8693108412,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B3-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 118.0525,
+                  "price": 433277.1995697792,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "355-B3-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 112.115,
+                  "price": 396550.5191454892,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B3-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 117.319,
+                  "price": 385511.3162258829,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B3-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 111.104,
+                  "price": 393118.07258290553,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "B4",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "355-B4-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.016,
+                  "price": 458333.96530170867,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B4-G-2",
+                  "type": "غرفتين وصالة",
+                  "area": 126.255,
+                  "price": 470401.85658099124,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "355-B4-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.01,
+                  "price": 430952.25445525115,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B4-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 578363.6584414374,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B4-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 126.25,
+                  "price": 442843.7275422767,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B4-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 122.81,
+                  "price": 450738.21290666936,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B4-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.36,
+                  "price": 635623.9554525431,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B4-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 118.85,
+                  "price": 436204.19024474925,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "355-B4-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 123.01,
+                  "price": 430952.25445525115,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B4-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 578363.6584414374,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B4-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 126.25,
+                  "price": 442843.7275422767,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B4-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 122.0125,
+                  "price": 447811.2222316993,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B4-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.6,
+                  "price": 636584.8693108412,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B4-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 118.0525,
+                  "price": 433277.1995697792,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "355-B4-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 112.115,
+                  "price": 396550.5191454892,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B4-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 117.319,
+                  "price": 385511.3162258829,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "355-B4-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 111.104,
+                  "price": 393118.07258290553,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "356",
+      "buildings": [
+        {
+          "name": "C1",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "356-C1-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 543724.138530313,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C1-G-2",
+                  "type": "استوديو",
+                  "area": 75.140002,
+                  "price": 249763.59531558392,
+                  "bathrooms": 2,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C1-G-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 157.670001,
+                  "price": 648357.458199383,
+                  "bathrooms": 4,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "356-C1-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514286.8104747131,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C1-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 594063.7883455263,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C1-1-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 157.670001,
+                  "price": 648408.1175292969,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C1-1-4",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 153.890001,
+                  "price": 637454.7959129921,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C1-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635735.1278490311,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C1-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.06,
+                  "price": 517479.0942610499,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "356-C1-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514286.8104747131,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C1-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 594063.7883455263,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C1-2-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 157.670001,
+                  "price": 648408.1175292969,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C1-2-4",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 152.890501,
+                  "price": 633314.5914528267,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C1-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635735.1278490311,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C1-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 514423.496303149,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "356-C1-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.535001,
+                  "price": 496233.80313160794,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C1-3-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 137.698879,
+                  "price": 535245.9524279302,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C1-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 120.0051,
+                  "price": 462979.5900364558,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "C2",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "356-C2-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 543724.138530313,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C2-G-2",
+                  "type": "استوديو",
+                  "area": 75.140002,
+                  "price": 249763.59531558392,
+                  "bathrooms": 2,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C2-G-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 157.670001,
+                  "price": 648357.458199383,
+                  "bathrooms": 4,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "356-C2-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514286.8104747131,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C2-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 594063.7883455263,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C2-1-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 157.670001,
+                  "price": 648408.1175292969,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C2-1-4",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 153.890001,
+                  "price": 637454.7959129921,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C2-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635735.1278490311,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C2-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.06,
+                  "price": 517479.0942610499,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "356-C2-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514286.8104747131,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C2-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 594063.7883455263,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C2-2-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 157.670001,
+                  "price": 648408.1175292969,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C2-2-4",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 152.890501,
+                  "price": 633314.5914528267,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C2-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635735.1278490311,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C2-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 514423.496303149,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "356-C2-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.535001,
+                  "price": 496233.80313160794,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C2-3-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 137.698879,
+                  "price": 535245.9524279302,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-C2-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 120.0051,
+                  "price": 462979.5900364558,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D1",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "356-D1-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.876001,
+                  "price": 543708.5902279213,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D1-G-2",
+                  "type": "غرفتين وصالة",
+                  "area": 143.115001,
+                  "price": 556298.8280897273,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "356-D1-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514286.8104747131,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D1-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.579999,
+                  "price": 594063.7843472507,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D1-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120002,
+                  "price": 534278.2673547928,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D1-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 139.020001,
+                  "price": 540381.2535160638,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D1-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635735.1278490311,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D1-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.060001,
+                  "price": 517479.09809252556,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "356-D1-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514286.8104747131,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D1-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 594063.7883455263,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D1-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120001,
+                  "price": 534278.2634677172,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D1-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 138.2225,
+                  "price": 529596.1358396118,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D1-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635735.1278490311,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D1-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 514423.496303149,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "356-D1-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.745001,
+                  "price": 497038.39580140717,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D1-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 112.129954,
+                  "price": 367480.7620450524,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D1-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 123.676072,
+                  "price": 471126.889930918,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D2",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "356-D2-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.876001,
+                  "price": 543708.5902279213,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D2-G-2",
+                  "type": "غرفتين وصالة",
+                  "area": 143.115001,
+                  "price": 556298.8280897273,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "356-D2-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514286.8104747131,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D2-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.579999,
+                  "price": 577541.6884584506,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D2-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120002,
+                  "price": 534278.2673547928,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D2-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 139.020001,
+                  "price": 540381.2535160638,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D2-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635735.1278490311,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D2-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.060001,
+                  "price": 517479.09809252556,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "356-D2-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514286.8104747131,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D2-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 577541.6923455263,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D2-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120001,
+                  "price": 526700.7914121173,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D2-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 138.2225,
+                  "price": 529596.1358396118,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D2-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635735.1278490311,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D2-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 514423.496303149,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "356-D2-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.745001,
+                  "price": 497038.39580140717,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D2-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 112.129954,
+                  "price": 367480.7620450524,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D2-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 123.676072,
+                  "price": 471126.889930918,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D3",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "356-D3-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.876001,
+                  "price": 543708.5902279213,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D3-G-2",
+                  "type": "غرفتين وصالة",
+                  "area": 143.115001,
+                  "price": 556298.8280897273,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "356-D3-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514286.8104747131,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D3-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.579999,
+                  "price": 577541.6884584506,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D3-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120002,
+                  "price": 526700.7952435928,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D3-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 139.020001,
+                  "price": 540381.2535160638,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D3-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635735.1278490311,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D3-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.060001,
+                  "price": 517479.09809252556,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "356-D3-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514286.8104747131,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D3-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 594063.7883455263,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D3-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120001,
+                  "price": 526700.7914121173,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D3-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 138.2225,
+                  "price": 537281.3068396117,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D3-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635735.1278490311,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D3-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 514423.496303149,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "356-D3-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.745001,
+                  "price": 497038.39580140717,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D3-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 112.129954,
+                  "price": 367480.7620450524,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D3-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 123.676072,
+                  "price": 471126.889930918,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D4",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "356-D4-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.876001,
+                  "price": 543708.5902279213,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D4-G-2",
+                  "type": "غرفتين وصالة",
+                  "area": 143.115001,
+                  "price": 556298.8280897273,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "356-D4-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514286.8104747131,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D4-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.579999,
+                  "price": 577541.6884584506,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D4-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120002,
+                  "price": 534278.2673547928,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D4-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 139.020001,
+                  "price": 540381.2535160638,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D4-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635735.1278490311,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D4-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.060001,
+                  "price": 517479.09809252556,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "356-D4-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514286.8104747131,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D4-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 594063.7883455263,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D4-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120001,
+                  "price": 526700.7914121173,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D4-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 138.2225,
+                  "price": 537281.3068396117,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D4-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635735.1278490311,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D4-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 514423.496303149,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "356-D4-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.745001,
+                  "price": 497038.39580140717,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D4-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 112.129954,
+                  "price": 367480.7620450524,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-D4-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 123.676072,
+                  "price": 471126.889930918,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E1",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "356-E1-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.876001,
+                  "price": 543708.5902279213,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-E1-G-2",
+                  "type": "استوديو",
+                  "area": 75.139971,
+                  "price": 249763.49227231473,
+                  "bathrooms": 2,
+                  "status": "available"
+                },
+                {
+                  "name": "356-E1-G-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.115001,
+                  "price": 556298.8280897273,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "356-E1-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514286.8104747131,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-E1-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.579999,
+                  "price": 594063.7843472507,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-E1-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120002,
+                  "price": 534278.2673547928,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-E1-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 139.020001,
+                  "price": 540381.2535160638,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-E1-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635735.1278490311,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-E1-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.060001,
+                  "price": 517479.09809252556,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "356-E1-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514286.8104747131,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-E1-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 594063.7883455263,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-E1-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120001,
+                  "price": 534278.2634677172,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-E1-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 138.2225,
+                  "price": 537281.3068396117,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-E1-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635735.1278490311,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-E1-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 514423.496303149,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "356-E1-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.745001,
+                  "price": 497038.39580140717,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-E1-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 112.129954,
+                  "price": 367480.7620450524,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "356-E1-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 123.676072,
+                  "price": 471126.889930918,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "357",
+      "buildings": [
+        {
+          "name": "C3",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "357-C3-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 543713.5705820983,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C3-G-2",
+                  "type": "استوديو",
+                  "area": 75.140002,
+                  "price": 249757.91848083766,
+                  "bathrooms": 2,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C3-G-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 157.670001,
+                  "price": 648345.5462148701,
+                  "bathrooms": 4,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "357-C3-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 499481.58641529846,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C3-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 577530.4671115078,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C3-1-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 157.670001,
+                  "price": 648396.205544784,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C3-1-4",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 153.890001,
+                  "price": 637443.1695078613,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C3-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635723.5233535807,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C3-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.06,
+                  "price": 517468.89046439796,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "357-C3-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 499481.58641529846,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C3-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 577530.4671115078,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C3-2-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 157.670001,
+                  "price": 648396.205544784,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C3-2-4",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 152.890501,
+                  "price": 633303.0405600219,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C3-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635723.5233535807,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C3-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 514413.35275762714,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "357-C3-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.535001,
+                  "price": 481752.91849840694,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C3-3-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 137.698879,
+                  "price": 527579.4915913031,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C3-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 120.0051,
+                  "price": 462970.5236390206,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "C4",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "357-C4-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 543713.5705820983,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C4-G-2",
+                  "type": "استوديو",
+                  "area": 75.140002,
+                  "price": 249757.91848083766,
+                  "bathrooms": 2,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C4-G-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 157.670001,
+                  "price": 648345.5462148701,
+                  "bathrooms": 4,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "357-C4-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 499481.58641529846,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C4-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 577530.4671115078,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C4-1-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 157.670001,
+                  "price": 648396.205544784,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C4-1-4",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 153.890001,
+                  "price": 637443.1695078613,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C4-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635723.5233535807,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C4-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.06,
+                  "price": 517468.89046439796,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "357-C4-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 499481.58641529846,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C4-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 577530.4671115078,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C4-2-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 157.670001,
+                  "price": 648396.205544784,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C4-2-4",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 152.890501,
+                  "price": 633303.0405600219,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C4-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635723.5233535807,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C4-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 514413.35275762714,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "357-C4-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.535001,
+                  "price": 481752.91849840694,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C4-3-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 137.698879,
+                  "price": 527579.4915913031,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-C4-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 120.0051,
+                  "price": 462970.5236390206,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D5",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "357-D5-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.876001,
+                  "price": 543698.022581907,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D5-G-2",
+                  "type": "غرفتين وصالة",
+                  "area": 143.115001,
+                  "price": 556288.0157369357,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "357-D5-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 499481.58641529846,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D5-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.579999,
+                  "price": 577530.4632245076,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D5-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120002,
+                  "price": 526689.9825129751,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D5-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 139.020001,
+                  "price": 532641.2384853362,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D5-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635723.5233535807,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D5-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.060001,
+                  "price": 517468.8942957981,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "357-D5-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514276.24252649845,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D5-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 577530.4671115078,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D5-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120001,
+                  "price": 526689.9786815752,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D5-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 138.2225,
+                  "price": 529585.6931157652,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D5-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635723.5233535807,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D5-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 514413.35275762714,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "357-D5-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.745001,
+                  "price": 482534.1439063963,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D5-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 112.129954,
+                  "price": 367472.29061569355,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D5-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 123.676072,
+                  "price": 471117.54619117716,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D6",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "357-D6-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.876001,
+                  "price": 543698.022581907,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D6-G-2",
+                  "type": "غرفتين وصالة",
+                  "area": 143.115001,
+                  "price": 556288.0157369357,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "357-D6-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514276.24252649845,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D6-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.579999,
+                  "price": 577530.4632245076,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D6-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120002,
+                  "price": 526689.9825129751,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D6-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 139.020001,
+                  "price": 532641.2384853362,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D6-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635723.5233535807,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D6-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.060001,
+                  "price": 517468.8942957981,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "357-D6-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514276.24252649845,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D6-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 577530.4671115078,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D6-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120001,
+                  "price": 526689.9786815752,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D6-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 138.2225,
+                  "price": 529585.6931157652,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D6-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635723.5233535807,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D6-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 514413.35275762714,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "357-D6-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.745001,
+                  "price": 482534.1439063963,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D6-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 112.129954,
+                  "price": 367472.29061569355,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D6-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 123.676072,
+                  "price": 471117.54619117716,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D7",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "357-D7-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.876001,
+                  "price": 543698.022581907,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D7-G-2",
+                  "type": "غرفتين وصالة",
+                  "area": 143.115001,
+                  "price": 556288.0157369357,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "357-D7-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514276.24252649845,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D7-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.579999,
+                  "price": 577530.4632245076,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D7-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120002,
+                  "price": 526689.9825129751,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D7-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 139.020001,
+                  "price": 532641.2384853362,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D7-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635723.5233535807,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D7-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.060001,
+                  "price": 517468.8942957981,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "357-D7-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514276.24252649845,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D7-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 577530.4671115078,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D7-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120001,
+                  "price": 526689.9786815752,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D7-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 138.2225,
+                  "price": 529585.6931157652,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D7-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635723.5233535807,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D7-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 514413.35275762714,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "357-D7-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.745001,
+                  "price": 482534.1439063963,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D7-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 112.129954,
+                  "price": 367472.29061569355,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D7-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 123.676072,
+                  "price": 471117.54619117716,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D8",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "357-D8-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.876001,
+                  "price": 543698.022581907,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D8-G-2",
+                  "type": "غرفتين وصالة",
+                  "area": 143.115001,
+                  "price": 556288.0157369357,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "357-D8-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514276.24252649845,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D8-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.579999,
+                  "price": 577530.4632245076,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D8-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120002,
+                  "price": 526689.9825129751,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D8-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 139.020001,
+                  "price": 532641.2384853362,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D8-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635723.5233535807,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D8-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.060001,
+                  "price": 517468.8942957981,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "357-D8-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514276.24252649845,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D8-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 577530.4671115078,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D8-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120001,
+                  "price": 526689.9786815752,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D8-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 138.2225,
+                  "price": 529585.6931157652,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D8-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635723.5233535807,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D8-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 514413.35275762714,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "357-D8-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.745001,
+                  "price": 482534.1439063963,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D8-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 112.129954,
+                  "price": 367472.29061569355,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-D8-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 123.676072,
+                  "price": 471117.54619117716,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E2",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "357-E2-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.876001,
+                  "price": 543698.022581907,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-E2-G-2",
+                  "type": "استوديو",
+                  "area": 75.139971,
+                  "price": 249757.8154399105,
+                  "bathrooms": 2,
+                  "status": "available"
+                },
+                {
+                  "name": "357-E2-G-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.115001,
+                  "price": 556288.0157369357,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "357-E2-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514276.24252649845,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-E2-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.579999,
+                  "price": 577530.4632245076,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-E2-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120002,
+                  "price": 526689.9825129751,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-E2-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 139.020001,
+                  "price": 532641.2384853362,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-E2-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635723.5233535807,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-E2-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.060001,
+                  "price": 517468.8942957981,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "357-E2-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 514276.24252649845,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-E2-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 577530.4671115078,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-E2-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120001,
+                  "price": 526689.9786815752,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-E2-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 138.2225,
+                  "price": 529585.6931157652,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-E2-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635723.5233535807,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-E2-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 514413.35275762714,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "357-E2-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.745001,
+                  "price": 482534.1439063963,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-E2-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 112.129954,
+                  "price": 367472.29061569355,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "357-E2-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 123.676072,
+                  "price": 471117.54619117716,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "358",
+      "buildings": [
+        {
+          "name": "F1",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "358-F1-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 144.980001,
+                  "price": 555427.7137528787,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F1-G-2",
+                  "type": "استوديو",
+                  "area": 80.29,
+                  "price": 267994.0842105355,
+                  "bathrooms": 2,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F1-G-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 162.77,
+                  "price": 668677.8069122881,
+                  "bathrooms": 4,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "358-F1-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 144.980001,
+                  "price": 518405.9374975209,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F1-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.73,
+                  "price": 597496.9110120052,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F1-1-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 162.770001,
+                  "price": 668732.3848730638,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F1-1-4",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 158.790001,
+                  "price": 657686.6447808829,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F1-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 158.549999,
+                  "price": 655461.38906016,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F1-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 139.960001,
+                  "price": 520632.21858879214,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "358-F1-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 144.980001,
+                  "price": 518405.9374975209,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F1-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.73,
+                  "price": 597496.9110120052,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F1-2-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 162.770001,
+                  "price": 668732.3848730638,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F1-2-4",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 157.790501,
+                  "price": 653546.8513598948,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F1-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 158.549999,
+                  "price": 655461.38906016,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F1-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 139.162501,
+                  "price": 517665.62676714326,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "358-F1-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 128.833548,
+                  "price": 490276.5858316815,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F1-3-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 134.816224,
+                  "price": 501498.0658858638,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F1-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 121.921739,
+                  "price": 434654.9168617852,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F2",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "358-F2-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 144.980001,
+                  "price": 555427.7137528787,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F2-G-2",
+                  "type": "استوديو",
+                  "area": 80.29,
+                  "price": 267994.0842105355,
+                  "bathrooms": 2,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F2-G-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 162.77,
+                  "price": 668677.8069122881,
+                  "bathrooms": 4,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "358-F2-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 144.980001,
+                  "price": 518405.9374975209,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F2-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.73,
+                  "price": 597496.9110120052,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F2-1-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 162.770001,
+                  "price": 668732.3848730638,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F2-1-4",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 158.790001,
+                  "price": 657686.6447808829,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F2-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 158.549999,
+                  "price": 655461.38906016,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F2-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 139.960001,
+                  "price": 520632.21858879214,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "358-F2-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 144.980001,
+                  "price": 518405.9374975209,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F2-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.73,
+                  "price": 597496.9110120052,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F2-2-3",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 162.770001,
+                  "price": 668732.3848730638,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F2-2-4",
+                  "type": "ثلاث غرف و صالة",
+                  "area": 157.790501,
+                  "price": 655629.6859730949,
+                  "bathrooms": 4,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F2-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 158.549999,
+                  "price": 655461.38906016,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F2-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 139.162501,
+                  "price": 517665.62676714326,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "358-F2-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 128.833548,
+                  "price": 490276.5858316815,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F2-3-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 134.816224,
+                  "price": 501498.0658858638,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-F2-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 121.921739,
+                  "price": 434654.9168617852,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D9",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "358-D9-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.876001,
+                  "price": 520319.7499831263,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D9-G-2",
+                  "type": "غرفتين وصالة",
+                  "area": 143.115001,
+                  "price": 548282.7787342267,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "358-D9-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 499434.6292911251,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D9-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.579999,
+                  "price": 577480.5857065428,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D9-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120002,
+                  "price": 511486.99337259436,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D9-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 139.020001,
+                  "price": 517135.54609681736,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D9-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635671.9605076045,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D9-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.060001,
+                  "price": 502404.88325828523,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "358-D9-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 499434.6292911251,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D9-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 577480.5895932072,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D9-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120001,
+                  "price": 511486.9897987613,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D9-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 138.2225,
+                  "price": 514168.9505553042,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D9-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635671.9605076045,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D9-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 499438.29143663635,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "358-D9-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.745001,
+                  "price": 475244.2582182945,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D9-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 112.129954,
+                  "price": 367434.64918459463,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D9-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 123.676072,
+                  "price": 435692.461188692,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D10",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "358-D10-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.876001,
+                  "price": 520319.7499831263,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D10-G-2",
+                  "type": "غرفتين وصالة",
+                  "area": 143.115001,
+                  "price": 548282.7787342267,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "358-D10-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 499434.6292911251,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D10-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.579999,
+                  "price": 577480.5857065428,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D10-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120002,
+                  "price": 511486.99337259436,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D10-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 139.020001,
+                  "price": 517135.54609681736,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D10-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635637.4005078295,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D10-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.060001,
+                  "price": 502404.88325828523,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "358-D10-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 499434.6292911251,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D10-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 577480.5895932072,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D10-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120001,
+                  "price": 511486.9897987613,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D10-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 138.2225,
+                  "price": 514168.9505553042,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D10-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635671.9605076045,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D10-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 499438.29143663635,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "358-D10-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.745001,
+                  "price": 475244.2582182945,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D10-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 112.129954,
+                  "price": 367434.64918459463,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D10-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 123.676072,
+                  "price": 435692.461188692,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D11",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "358-D11-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.876001,
+                  "price": 520319.7499831263,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D11-G-2",
+                  "type": "غرفتين وصالة",
+                  "area": 143.115001,
+                  "price": 548282.7787342267,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "358-D11-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 499434.6292911251,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D11-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.579999,
+                  "price": 577480.5857065428,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D11-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120002,
+                  "price": 511486.99337259436,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D11-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 139.020001,
+                  "price": 517135.54609681736,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D11-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635671.9605076045,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D11-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.060001,
+                  "price": 502404.88325828523,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "358-D11-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 499434.6292911251,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D11-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 577480.5895932072,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D11-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120001,
+                  "price": 511486.9897987613,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D11-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 138.2225,
+                  "price": 514168.9505553042,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D11-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635671.9605076045,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D11-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 499438.29143663635,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "358-D11-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.745001,
+                  "price": 475244.2582182945,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D11-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 112.129954,
+                  "price": 367434.64918459463,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D11-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 123.676072,
+                  "price": 463999.31541208917,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D12",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "358-D12-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.876001,
+                  "price": 520319.7499831263,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D12-G-2",
+                  "type": "غرفتين وصالة",
+                  "area": 143.115001,
+                  "price": 548282.7787342267,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "358-D12-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 499434.6292911251,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D12-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.579999,
+                  "price": 577480.5857065428,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D12-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120002,
+                  "price": 511486.99337259436,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D12-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 139.020001,
+                  "price": 517135.54609681736,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D12-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635671.9605076045,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D12-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.060001,
+                  "price": 502404.88325828523,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "358-D12-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 499408.5812909389,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D12-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 577480.5895932072,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D12-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120001,
+                  "price": 511486.9897987613,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D12-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 138.2225,
+                  "price": 514168.9505553042,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D12-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635821.7205066294,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D12-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 499585.98018773634,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "358-D12-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.745001,
+                  "price": 475241.072591441,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D12-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 112.129954,
+                  "price": 367434.64918459463,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-D12-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 123.676072,
+                  "price": 463999.31541208917,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E3",
+          "floors": [
+            {
+              "floorNumber": "Ground",
+              "apartments": [
+                {
+                  "name": "358-E3-G-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.876001,
+                  "price": 520319.7499831263,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-E3-G-2",
+                  "type": "استوديو",
+                  "area": 75.139971,
+                  "price": 249732.59111340344,
+                  "bathrooms": 2,
+                  "status": "available"
+                },
+                {
+                  "name": "358-E3-G-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.115001,
+                  "price": 532368.3906230266,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "First",
+              "apartments": [
+                {
+                  "name": "358-E3-1-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 499434.6292911251,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-E3-1-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.579999,
+                  "price": 577480.5857065428,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-E3-1-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120002,
+                  "price": 511605.9693742569,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-E3-1-4",
+                  "type": "غرفتين وصالة",
+                  "area": 139.020001,
+                  "price": 517135.54609681736,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-E3-1-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635821.7205066294,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-E3-1-6",
+                  "type": "غرفتين وصالة",
+                  "area": 135.060001,
+                  "price": 502404.88325828523,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Second",
+              "apartments": [
+                {
+                  "name": "358-E3-2-1",
+                  "type": "غرفتين وصالة",
+                  "area": 139.880001,
+                  "price": 499562.4492920389,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-E3-2-2",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 148.58,
+                  "price": 577135.8839932072,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-E3-2-3",
+                  "type": "غرفتين وصالة",
+                  "area": 143.120001,
+                  "price": 511497.3377188336,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-E3-2-4",
+                  "type": "غرفتين وصالة",
+                  "area": 138.2225,
+                  "price": 514168.9505553042,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-E3-2-5",
+                  "type": "غرفتين وصالة و مجلس",
+                  "area": 153.599999,
+                  "price": 635671.9605076045,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-E3-2-6",
+                  "type": "غرفتين وصالة",
+                  "area": 134.262501,
+                  "price": 499585.98018773634,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "floorNumber": "Roof",
+              "apartments": [
+                {
+                  "name": "358-E3-3-1",
+                  "type": "غرفتين وصالة",
+                  "area": 126.745001,
+                  "price": 475244.2582182945,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-E3-3-2",
+                  "type": "غرفتين وصالة",
+                  "area": 112.129954,
+                  "price": 367546.77913859463,
+                  "bathrooms": 3,
+                  "status": "available"
+                },
+                {
+                  "name": "358-E3-3-3",
+                  "type": "غرفتين وصالة",
+                  "area": 123.676072,
+                  "price": 434209.91252422764,
+                  "bathrooms": 3,
+                  "status": "available"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
