@@ -9,13 +9,6 @@ const cors = require("cors");
 
 const path = require("path");
 
-const allowedOrigins = [
-  "http://localhost:5173",
-  "http://localhost:3000",
-  "https://dashboard.asasmakeen-mtc.com",
-  "https://asasmakeen-mtc.com",
-];
-
 const app = express();
 app.use(express.json());
 
@@ -29,14 +22,9 @@ const projectRoute = require("./routes/projectRouters");
 
 app.use(
   cors({
-    origin: function (origin, callback) {
-      if (!origin || allowedOrigins.includes(origin)) {
-        callback(null, true);
-      } else {
-        callback(new ApiError("Not allowed by CORS"));
-      }
+    origin: (origin, callback) => {
+      callback(null, origin || true);
     },
-    methods: ["GET", "PATCH", "POST"],
     credentials: true,
   })
 );
